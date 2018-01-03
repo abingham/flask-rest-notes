@@ -1,0 +1,9 @@
+# -*- restclient -*-
+
+:host = 0.0.0.0
+:port = 5000
+
+#
+# A bit of json GET, you can pass headers too
+#
+GET http://:host::port/get_current_user
